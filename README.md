@@ -50,7 +50,10 @@ So, how is this in practice ?
 
 Well, in the code, between the two main brackets (right after _#IfWinActive, Among Us_), you can see the following syntax :
 
-<code>z::w<br>q::a<br>f::q<br>e::r</code>
+<code>z::w</code><br>
+<code>q::a</code><br>
+<code>f::q</code><br>
+<code>e::r</code><br>
 
 On the left of the **::**, you will have your custom key, and on the right, your target key that will be emulated. As an example above, I want to move upwards with Z. When I press Z, AutoHotKey will send the W input to Among Us. In other words, when I press Z, Among Us will recognize that I press W and will move me forward.
 <br><br>
